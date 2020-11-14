@@ -1,0 +1,30 @@
+== Project for Lucidworks interview
+
+Hello Matt,
+
+Thank you so much for your patience! As discussed, the next step involves completing a coding project to give Lucidworks a sense for your development aptitude and process. Once complete we will schedule a time for a code review and walk through with members of the team.
+
+== Prompt:
+
+Create a publicly-viewable Github (or similar) repository containing your solution to the problem below.  Please spend no more than 3 hours on your submission. 
+
+== Problem Statement
+Create a Customer API that would help to power an online paper store (Dunder Mifflin Paper Company).  Your API should be able to Create, View, List, and Delete customers.  APIs should be written using Spring, and customer information should be persisted in Solr 8.6.3.
+
+Once completed, answer the following question in ‘ANSWER.txt’ in your repository: “If you were building a similar API to serve millions of customers, how would you build it differently?”
+
+== Things To Pay Attention To:
+To best reflect how you regularly work, this should be treated with the care you give your work normally.  This includes attention to non-functional concerns such as quality, readability, etc.
+
+Be prepared to answer questions about your submission, making special note of:
+Any assumptions you made, and how you came to them
+Your code structure
+The problems you solve in your code
+How your code handles complexity
+
+== Things To Ignore
+In an effort to focus on the submitted Java code, reviewers will steer clear of reviewing any build system, packaging, containerization, or other concerns.  To this end a template project has been created here which contains a bootstrapped Spring app and can be used as a base.
+
+== Once complete, 
+please send your link to me and provide availability for a 45min Zoom call.
+
