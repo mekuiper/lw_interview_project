@@ -1,0 +1,18 @@
+
+[
+  {
+    "id": "004",
+    "name_t": "Office Max",
+    "address_t": "address1"
+  },
+  {
+    "id": "005",
+    "name_t": "Office Depot",
+    "address_t": "address2"
+  },
+  {
+    "id": "006",
+    "name_t": "Walmart",
+    "address_t": "address3"
+  }
+]

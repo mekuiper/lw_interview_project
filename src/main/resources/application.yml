@@ -1,2 +1,8 @@
+
+
+spring:
+    solr:
+        server: http://172.18.0.1:8983/solr/dunder_mifflin_customers
+
 server:
-    port: 9000
+    port: 9983

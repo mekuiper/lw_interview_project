@@ -1,3 +1,36 @@
+
+== My notes
+Rather than RestTemplate
+NOTE: As of 5.0 this class is in maintenance mode, with only minor requests for changes and bugs to be accepted going forward. Please, consider using the org.springframework.web.reactive.client.WebClient which has a more modern API and supports sync, async, and streaming scenarios.
+
+or Java 11 java.net.http lib
+
+https://lucene.apache.org/solr/guide/8_6/uploading-data-with-index-handlers.html#adding-a-single-json-document 
+#curl -X POST -H 'Content-Type: application/json' 'http://localhost:8983/solr/my_collection/update/json/docs' --data-binary '
+{
+  "id": "1",
+  "title": "Doc 1"
+}'
+
+ubuntu@ubuntu1804:~/git_repos/gs-rest-service-Matt/MattLearning$ curl -X POST -H 'Content-Type: application/json'http://localhost:9983/createcustomers' --data-binary '[
+  {
+    "id": "001",
+    "name": "Office Max",
+    "address": "address1"
+  },
+  {
+    "id": "002",
+    "name": "Office Depot",
+    "address": "address2"
+  },
+  {
+    "id": "003",
+    "name": "Walmart",
+    "address": "address3"
+  }
+]'
+
+
 == Project for Lucidworks interview
 
 Hello Matt,
