@@ -1,0 +1,13 @@
+Once completed, answer the following question in ‘ANSWER.txt’ in your repository: 
+“If you were building a similar API to serve millions of customers, how would you build it differently?”
+
+-  Create a proxy service to proxy request to many servers
+-  I tested with a standalone Solr server, would have SolrCloud instance backing this Customer api service
+-  On that note, this API would be modified to utilize the router_id Solr parameter, 
+    which will cause SolrCloud to route docs with a similar hash for a specified field to the same shard.  
+    Specified at index time.  Goal to improve query performance.
+-  Would add better logging and Unit and Sytem tests.  Mockito?  Python Scripts
+-  Add security, especially on delete calls
+-  Possibly have an api to look up existing Customers by common fields, name, addres,... Prior to adding a new customer.
+-  Provide Facet and Sort options to allow for better presentation of returned data.
+   
